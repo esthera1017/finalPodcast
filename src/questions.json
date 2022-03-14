@@ -1,0 +1,98 @@
+[
+  {
+    "img": "https://media.gq.com/photos/5a7247527d1ed070dd17ab13/master/w_1600%2Cc_limit/manny-jacinto-GQ-nathaniel-wood-03.jpg",
+    "option1": "Manny Jacinto",
+    "option2": "Ethan Hawke",
+    "option3": "Cardi B",
+    "option4": "Leonardo DiCaprio",
+    "correct": "Manny Jacinto"
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Ethan_Hawke_2018.jpg/440px-Ethan_Hawke_2018.jpg",
+    "option1": "Tom Holland",
+    "option2": "Tom Cruise",
+    "option3": "Ethan Hawke",
+    "option4": "Bruno Mars",
+    "correct": "Ethan Hawke"
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Cardi_B_interview.jpg/440px-Cardi_B_interview.jpg",
+    "option1": "Rihanna",
+    "option2": "Katy Perry",
+    "option3": "Cardi B",
+    "option4": "Doja Cat",
+    "correct": "Cardi B"
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/commons/4/49/Owen_Wilson_Cannes_2011.jpg",
+    "option1": "Adam Sandler",
+    "option2": "Owen Wilson",
+    "option3": "Ben Stiller",
+    "option4": "Will Ferrell",
+    "correct": "Owen Wilson"
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Elizabeth_Banks_by_Gage_Skidmore.jpg/440px-Elizabeth_Banks_by_Gage_Skidmore.jpg",
+    "option1": "Jennifer Lawrence",
+    "option2": "Emma Roberts",
+    "option3": "Anne Hathaway",
+    "option4": "Elizabeth Banks",
+    "correct": "Elizabeth Banks"
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/commons/7/79/Alexis_Knapp.jpg",
+    "option1": "Anna Kendrick",
+    "option2": "Anna Camp",
+    "option3": "Alexis Knapp",
+    "option4": "Brittany Snow",
+    "correct": "Alexis Knapp"
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Glasto17-44_%2835547413626%29_Cropped.jpg/440px-Glasto17-44_%2835547413626%29_Cropped.jpg",
+    "option1": "Bradley Cooper",
+    "option2": "Justin Bartha",
+    "option3": "Ed Helms",
+    "option4": "Zach Galifianakis",
+    "correct": "Bradley Cooper"
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Lady_Gaga_at_Joe_Biden%27s_inauguration_%28cropped%29.jpg/440px-Lady_Gaga_at_Joe_Biden%27s_inauguration_%28cropped%29.jpg",
+    "option1": "Lady Gaga",
+    "option2": "Taylor Swift",
+    "option3": "Zendaya",
+    "option4": "Billie Eilish",
+    "correct": "Lady Gaga"
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Pete_Davidson_in_2015_%2817073107891%29.jpg/440px-Pete_Davidson_in_2015_%2817073107891%29.jpg",
+    "option1": "Kanye West",
+    "option2": "Pete Davidson",
+    "option3": "Kim Kardashian",
+    "option4": "Khloe Kardashian",
+    "correct": "Pete Davidson"
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/RONNY_CHIENG_%281-28_screenshot%29.jpg/440px-RONNY_CHIENG_%281-28_screenshot%29.jpg",
+    "option1": "Ken Jeong",
+    "option2": "Henry Golding",
+    "option3": "Jimmy O. Yang",
+    "option4": "Ronny Chieng",
+    "correct": "Ronny Chieng"
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Awkwafina_%28cropped%29_2.jpg/440px-Awkwafina_%28cropped%29_2.jpg",
+    "option1": "Constance Wu",
+    "option2": "Gemma Chan",
+    "option3": "Awkwafina",
+    "option4": "Michelle Yeoh",
+    "correct": "Awkwafina"
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kevin_Hart_2014_%28cropped_2%29.jpg/440px-Kevin_Hart_2014_%28cropped_2%29.jpg",
+    "option1": "Dwayne Johnson",
+    "option2": "Jack Black",
+    "option3": "Kevin Hart",
+    "option4": "Nick Jonas",
+    "correct": "Kevin Hart"
+  }
+]
