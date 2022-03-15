@@ -17,7 +17,8 @@ function Login({ start, setStart }) {
     if (loginValue == null) {
       setError('User does not exist');
     } else {
-      localStorage.setItem(name + '$', '0');
+      localStorage.setItem(name + '$', 0);
+      localStorage.setItem('$CurrUser', name);
       setStart(true);
     }
   }
@@ -30,27 +31,28 @@ function Login({ start, setStart }) {
     } else if (!validString(newName)) {
       setError('Username must be alphanumeric');
     } else {
-      localStorage.setItem(newName, '0');
-      localStorage.setItem(newName + '$', '0');
+      localStorage.setItem(newName, 0);
+      localStorage.setItem(newName + '$', 0);
+      localStorage.setItem('$CurrUser', newName);
       setStart(true);
     }
   }
   if (!start) {
-  return (
-  <>
-    <form>
-      <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Enter Username" />
-      <button type="submit" className="Login-button" onClick={validateLogin}>Log In</button>
-    </form>
-    <div className="Error">
-      {error}
-    </div>
-    <form>
-      <input type="text" value={newName} onChange={(e) => setNewName(e.target.value)} placeholder="Enter New Username" />
-      <button type="submit" className="Login-button" onClick={validateSignup}>Sign Up</button>
-    </form>
-  </>
-  );
+    return (
+      <>
+        <form>
+          <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Enter Username" />
+          <button type="submit" className="Login-button" onClick={validateLogin}>Log In</button>
+        </form>
+        <div className="Error">
+          {error}
+        </div>
+        <form>
+          <input type="text" value={newName} onChange={(e) => setNewName(e.target.value)} placeholder="Enter New Username" />
+          <button type="submit" className="Login-button" onClick={validateSignup}>Sign Up</button>
+        </form>
+      </>
+    );
   }
   return <Question qlist={qlist} />;
 }

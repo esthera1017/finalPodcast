@@ -6,11 +6,15 @@ function Question({ qlist }) {
   const [counter, setCounter] = useState(0);
   const [response, setResponse] = useState('');
   const prompt = 'Who is this?';
+  const currUser = localStorage.getItem('$CurrUser');
+  const currScore = JSON.parse(localStorage.getItem(currUser + '$'));
+  const currPersonalBest = localStorage.getItem(currUser);
   // pick a question
   const question = qlist[Math.floor(Math.random() * 10) % 12];
   function handleSubmit1(e) {
     if (question.option1 === question.correct) {
       setResponse('Correct');
+      localStorage.setItem(currUser + '$', currScore + 1);
     } else {
       setResponse('Incorrect');
     }
@@ -21,6 +25,7 @@ function Question({ qlist }) {
   function handleSubmit2(e) {
     if (question.option2 === question.correct) {
       setResponse('Correct');
+      localStorage.setItem(currUser + '$', currScore + 1);
     } else {
       setResponse('Incorrect');
     }
@@ -31,6 +36,7 @@ function Question({ qlist }) {
   function handleSubmit3(e) {
     if (question.option3 === question.correct) {
       setResponse('Correct');
+      localStorage.setItem(currUser + '$', currScore + 1);
     } else {
       setResponse('Incorrect');
     }
@@ -41,6 +47,7 @@ function Question({ qlist }) {
   function handleSubmit4(e) {
     if (question.option4 === question.correct) {
       setResponse('Correct');
+      localStorage.setItem(currUser + '$', currScore + 1);
     } else {
       setResponse('Incorrect');
     }
@@ -48,8 +55,21 @@ function Question({ qlist }) {
     setCounter(counter + 1);
   }
 
+if(counter < 10) {
   return (
     <div className="App-header">
+      <header className="Top-header">
+        Guess the Celebrity
+        <div className="Info-header">
+          {currUser}
+          <span>
+            Current Score: {currScore}
+          </span>
+          <span>
+            Personal Best: {currPersonalBest}
+          </span>
+        </div>
+      </header>
       <img src={question.img} alt="hello" width="400" height="400" />
       <form>
         <p>
@@ -73,6 +93,8 @@ function Question({ qlist }) {
       </form>
     </div>
   );
+  }
+  return <div> Helloo! </div>;
 }
 
 Question.propTypes = {
